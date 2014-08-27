@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  workflow_event_id: 1
+  attribute_key: MyString
+  attribute_value: MyString
+  created_by: MyString
+
+two:
+  workflow_event_id: 1
+  attribute_key: MyString
+  attribute_value: MyString
+  created_by: MyString
