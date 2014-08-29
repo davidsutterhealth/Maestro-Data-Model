@@ -31,7 +31,10 @@ gem 'capistrano', '~> 3.1.0'
 gem 'capistrano-rbenv'
 gem 'capistrano-bundler'
 gem 'capistrano-rails'
-gem 'therubyracer'
+
+group :staging, :production do
+  gem 'therubyracer'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
